@@ -1,0 +1,16 @@
+{
+  "name": "start-nodekit",
+  "version": "1.0.0",
+  "description": "A template server or kit using Nodejs and ExpressJs for faster web development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2"
+  }
+}
