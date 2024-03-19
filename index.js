@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 5000;
-
+const path = require("path");
 const express = require("express");
 const handleBars = require("express-handlebars");
 const homeControllers = require("./controllers/homeController");
@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static("public"));
 
 // setting handlebars
-app.set("views", "./views");
+app.set("views", __dirname + "/./views");
 app.engine(
 	"hbs",
 	handleBars.engine({
