@@ -11,39 +11,3 @@
 body {
 	font-family: "Montserrat", sans-serif !important;
 }
-
-.navbar {
-	/* TODO:// Remove the fixed height later */
-	height: 60px;
-	display: flex;
-	gap: 2rem;
-	align-items: center;
-	padding: 0 4rem;
-	font-weight: 400;
-	font-style: normal;
-	background-color: #222222;
-	color: #a1a2a2;
-	font-size: 1.2rem !important;
-	margin-bottom: 1.5rem;
-}
-
-.nav-btn {
-	height: 100%;
-	border: none;
-	/* Add top-down padding to remove static navbar height dependency */
-	padding: 0 20px;
-	background-color: #222222;
-}
-
-.nav-btn:hover {
-	background-color: #080808;
-}
-
-.nav-btn a {
-	font-size: 1.2rem !important;
-	color: #a1a2a2;
-	text-decoration: none;
-}
-.nav-btn a:hover {
-	color: white;
-}
