@@ -6,7 +6,7 @@ const homeControllers = require("./controllers/homeController");
 const aboutControllers = require("./controllers/aboutController");
 
 const app = express();
-app.use(express.static("public"));
+app.use(express.static(__dirname + "/./public"));
 
 // setting handlebars
 app.set("views", __dirname + "/./views");
