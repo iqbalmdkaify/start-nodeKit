@@ -2,8 +2,8 @@ const PORT = process.env.PORT || 5000;
 
 const express = require("express");
 const handleBars = require("express-handlebars");
-const homeControllers = require("../controllers/homeController");
-const aboutControllers = require("../controllers/aboutController");
+const homeControllers = require("./controllers/homeController");
+const aboutControllers = require("./controllers/aboutController");
 
 const app = express();
 app.use(express.static("public"));
