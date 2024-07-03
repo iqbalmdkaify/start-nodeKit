@@ -8,6 +8,12 @@ const aboutControllers = require("./controllers/aboutController");
 const app = express();
 app.use(express.static(__dirname + "/./public"));
 
+// middlewares for testing
+app.get("*", (req, res, next) => {
+	console.log(req.url);
+	next();
+});
+
 // setting handlebars
 app.set("views", __dirname + "/./views");
 app.engine(
