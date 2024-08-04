@@ -18,7 +18,7 @@ Follow the steps below to get up and running with the Start Node Kit.
 
 First, fork the repository to your own GitHub account.
 
-1. Navigate to the [Start-nodeKit repository](https://github.com/yourusername/start-node-kit).
+1. Navigate to the [Start-nodeKit repository](https://github.com/iqbalmdkaify/start-nodeKit).
 2. Click the "Fork" button at the top right of the page.
 3. Select your GitHub account as the destination for the fork.
 
