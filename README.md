@@ -26,9 +26,7 @@ First, fork the repository to your own GitHub account.
 
 Once you have forked the repository, clone it to your local machine.
 
-<code>git clone https://github.com/<your-username>/start-node-kit.git</code>
-
-**Replace <your-username> with your GitHub username.**
+<code>git clone https://github.com/<iqbalmdkaify>/start-nodeKit.git</code>
 
 ### 3. Navigate to the project Repository
 
@@ -54,7 +52,7 @@ start-node-kit/
 ├── database/          # Database connection and configurations
 ├── models/            # Database models and schemas
 ├── public/            # Static files (images, CSS, etc.)
-├── views/             # View templates (EJS files)
+├── views/             # View templates (HBS files)
 ├── .gitignore         # Files and directories to ignore in Git
 ├── package.json       # Project metadata and dependencies
 ├── package-lock.json  # Dependency lock file
