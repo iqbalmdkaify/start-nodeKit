@@ -26,7 +26,7 @@ First, fork the repository to your own GitHub account.
 
 Once you have forked the repository, clone it to your local machine.
 
-<code>git clone https://github.com/<iqbalmdkaify>/start-nodeKit.git</code>
+<code>git clone https://github.com/iqbalmdkaify/start-nodeKit.git</code>
 
 ### 3. Navigate to the project Repository
 
