@@ -1,51 +1,66 @@
-# Start Node Kit
 
-**Start Node Kit** is a boilerplate codebase for starting a Node.js Express server. It includes example pages for a home, about, and contact page. This kit is ideal for beginners looking to get started with Node.js and Express or for anyone who needs a basic structure for their web server project.
+# Project Title
+
+Start Node Kit is a boilerplate codebase for starting a Node.js Express server, providing example pages for a home, about, and contact page. It’s designed for beginners and anyone needing a basic structure for a web server project.
 
 ## Features
 
 - Basic Express server setup
 - Example pages: Home, About, Contact
 - Organized file structure with MVC pattern
-- Uses Handlebars (`hbs`) as the templating engine
+- Uses Handlebars (hbs) as the templating engine
 - Easy to extend and customize
 - Development server with live reload
 
-## Getting Started
+
+## Tech Stack
+
+It's a server side rendering application with integrated server.
+
+**Server:** Node, Express
+
+## Installation
 
 Follow the steps below to get up and running with the Start Node Kit.
 
-### 1. Fork the Repository
+#### 1. Fork the Repository
 
 First, fork the repository to your own GitHub account.
 
 1. Navigate to the [Start-nodeKit repository](https://github.com/iqbalmdkaify/start-nodeKit).
+
 2. Click the "Fork" button at the top right of the page.
 3. Select your GitHub account as the destination for the fork.
 
-### 2. Clone the Repository
+#### 2. Clone the Repository
 
 Once you have forked the repository, clone it to your local machine.
 
-<code>git clone https://github.com/iqbalmdkaify/start-nodeKit.git</code>
+```bash
+git clone https://github.com/iqbalmdkaify/start-nodeKit.git
+```
 
-### 3. Navigate to the project Repository
+#### 3. Navigate to the project Repository
 
-<code>cd start-nodeKit</code>
+```bash
+cd start-nodeKit
+```
 
-### 4. Install Node Modules
+#### 4. Install Node Modules
 
-<code>npm install</code>
-
+```bash
+npm install
+```
 This will install all the packages listed in the package.json file.
 
-### 5. Run the Development Server
+#### 5. Run the Development Server
 
-<code>npm run dev</code>
-
+```bash
+npm run dev
+```
 The server will start, and you can view the example pages by navigating to http://localhost:3000 in your browser.
 
-### Project Structure
+## Project Structure
 
 ```
 start-nodeKit/
@@ -99,20 +114,16 @@ This project uses Handlebars (`hbs`) as the templating engine for rendering view
 
 Handlebars allows you to create dynamic templates with features like helpers, partials, and block expressions, which can be very useful for rendering complex views.
 
-#### 5. Environment Variables
 
+## Environment Variables
 You can set environment variables in the `.env` file. For example:
 
-<code>PORT=3000</code>
+`PORT=3000`
 
-#### 6. Contributing
-
+## Contributing
 Contributions are welcome! Feel free to fork the project and submit a pull request with your changes. Make sure to follow the project's coding style and conventions.
 
-### License
+
+## License
 
 This project is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/). See the LICENSE file for more information.
-
-
-
-
